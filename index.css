@@ -1,0 +1,66 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13;  
+    margin: 30px;
+}
+
+#instructions{
+    width: 450px;    
+}
+
+
+
+#container {
+    width: 400px;     
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#container > .box{
+    height: 50px;
+    margin-top: 5px;    
+    border-color: gray;
+    border-radius: 2px;
+    border-width: thin;
+}
+
+#container > .chat-container {
+    height: 300px;
+    width: 400px;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
+    border-radius: 2px;
+    overflow: scroll;
+    
+}
+
+#container > .chat-container > .message-incoming {
+   background-color: rgba(129, 3, 129, 0.445);
+   display: inline-block;   
+   border: 1px solid #918d8d;
+   padding: 5px;
+   margin: 2px;
+   border-radius: 5px;
+   align-items: flex-start;
+}
+
+#container > .chat-container > .message-outcoming {
+    background-color: rgba(128, 128, 128, 0.623);
+    display: inline-block;   
+    border: 1px solid #918d8d;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    align-items: flex-start;
+ }
+#container > #sendButton{
+    width: 30%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: grey;
+    background-color: rgba(58, 8, 58, 0.438);
+}
