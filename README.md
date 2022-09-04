@@ -13,7 +13,7 @@ Also, this application is taking into consideration the time zone difference to 
 
 
 ## Live site
-Go live to this application by visiting the folowing link: 
+Go live to this application by visiting the folowing link: https://chatbotapplication.netlify.app/
 
 ## Contact information
 This application was created by Diana Montoya (dianajmr.1129@gmail.com)
