@@ -2,16 +2,28 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13;  
     margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
-#instructions{
-    width: 450px;    
+.instructions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructions h3 {
+    margin-top: 0px;
+}
+
+.main-container{
+    width: 500px;
 }
 
 
-
-#container {
-    width: 400px;     
+#container {   
     display: flex;
     flex-direction: column;
    
@@ -26,8 +38,7 @@ body{
 }
 
 #container > .chat-container {
-    height: 300px;
-    width: 400px;
+    height: 300px;    
     border-style: solid;
     border-color: gray;
     border-width: thin;
@@ -63,4 +74,9 @@ body{
     border-width: 1px;
     border-color: grey;
     background-color: rgba(58, 8, 58, 0.438);
+}
+
+.footer{
+    margin-top: 50px;
+    color: rgb(61, 60, 60);
 }

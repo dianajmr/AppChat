@@ -4,17 +4,26 @@
         <title>Chat App</title>
     </head>
     <body>
-        <div id="instructions">
-            <h3> To start the chat, please type a message. <br>How can we help you?</h3>
-            <p> Our store is available from monday to friday between 08:00 and 16:00 hours GMT-5.</p> 
+        <div class="main-container">
+            <div class="instructions">
+                <h3> To start the chat, please type a message.</h3>
+                <h3>  How can we help you?</h3>
+            </div>
+                   
+            <div id="container">
+                <div id="chat-container" class="chat-container"></div>
+                <input class="box" type="text" id="userText" placeholder="Type a question">
+                <button id="sendButton">Send Message</button>
+                
+            </div> 
+
+            <div class="footer">
+                <p> Our store is available from monday to friday between 08:00 and 16:00 hours GMT-5.</p> 
+                <b> Visit the GitHub repository: </b>
+                <a href="https://github.com/dianajmr/Chat-App">https://github.com/dianajmr/Chat-App</a>
+            </div>
+            
         </div>
-               
-        <div id="container">
-            <div id="chat-container" class="chat-container"></div>
-            <input class="box" type="text" id="userText" placeholder="Type a question">
-            <button id="sendButton">Send Message</button>
-            <p class="box" id="answer"> </p>
-        </div> 
 
        <script src="./index.js"></script>
     </body>
